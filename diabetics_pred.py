@@ -1,7 +1,7 @@
 import numpy as np
 import pickle
 
-loading_model = pickle.load(open('diabetics_prediction.sav','rb'))
+loading_model = pickle.load(open('diabetics_prediction.pkl','rb'))
 
 input_data = (5,166,72,19,175,25.8,0.587,51)
 
